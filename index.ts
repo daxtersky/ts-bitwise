@@ -1,40 +1,45 @@
-// Import stylesheets
-import './style.css';
+console.log(`Biwise 1
+(1 & 1) > 0 ${(1 & 1) > 0}
+(1 & 2) > 0 ${(1 & 2) > 0}
+(1 & 4) > 0 ${(1 & 4) > 0}
+(1 & 8) > 0 ${(1 & 8) > 0}
+`)
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>Bitwise operator AND: &</h1>`;
+console.log(`Biwise 3
+(3 & 1) > 0 ${(3 & 1) > 0}
+(3 & 2) > 0 ${(3 & 2) > 0}
+(3 & 4) > 0 ${(3 & 4) > 0}
+(3 & 8) > 0 ${(3 & 8) > 0}
+`)
 
-const filterLactBin = 0; // 1 or 2 or 4
-console.log(filterLactBin);
+console.log(`Biwise 7
+(7 & 1) > 0 ${(7 & 1) > 0}
+(7 & 2) > 0 ${(7 & 2) > 0}
+(7 & 4) > 0 ${(7 & 4) > 0}
+(7 & 8) > 0 ${(7 & 8) > 0}
+`)
 
-// NO OPTIONS
-if ((filterLactBin & 0)) {
-  console.log('nothing');
-}
-// ONE OPTION
-if ((filterLactBin & 1)) {
-  console.log('option one');
-}
-if ((filterLactBin & 2)) {
-  console.log('option two');
-}
-if ((filterLactBin & 4)) {
-  console.log('option three');
-}
+console.log(`Biwise 12
+(12 & 1) > 0 ${(12 & 1) > 0}
+(12 & 2) > 0 ${(12 & 2) > 0}
+(12 & 4) > 0 ${(12 & 4) > 0}
+(12 & 8) > 0 ${(12 & 8) > 0}
+`)
 
-// TWO OPTIONS
-if ((filterLactBin & 3) === 3) {
-  console.log('option ONE & TWO');
-}
-if ((filterLactBin & 5) === 5) {
-  console.log('option ONE & THREE');
-}
-if ((filterLactBin & 6) === 6) {
-  console.log('option TWO & THREE');
-}
+// console.log(`Biwise 14
+// (14 & 2) > 0 ${(14 & 2) > 0}
+// (14 & 4) > 0 ${(14 & 4) > 0}
+// (14 & 8) > 0 ${(14 & 8) > 0}
+// (14 & 16) > 0 ${(14 & 16) > 0}
+// (14 & 32) > 0 ${(14 & 32) > 0}
+// (14 & 64) > 0 ${(14 & 64) > 0}
+// `)
 
-// ALL OPTIONS
-if ((filterLactBin & 7) === 7) {
-  console.log('ALL OPTIONS');
-}
+// console.log(`Biwise 24
+// (24 & 2) > 0 ${(24 & 2) > 0}
+// (24 & 4) > 0 ${(24 & 4) > 0}
+// (24 & 8) > 0 ${(24 & 8) > 0}
+// (24 & 16) > 0 ${(24 & 16) > 0}
+// (24 & 32) > 0 ${(24 & 32) > 0}
+// (24 & 64) > 0 ${(24 & 64) > 0}
+// `)
